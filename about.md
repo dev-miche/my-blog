@@ -5,8 +5,13 @@ permalink: /about/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+My name is Pankaj Singh and I am a software artisan from India. I am an Open Source Enthusiast and Evangelist. I've been shipping software solutions mainly web applications for more than 2 years.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+I am a graduate from Uttar Pradesh Technical University and I did Post Graduate Diploma in System Software Development from Centre for Development in Advanced Computing(C-DAC), Hyderabad. C-DAC is a premier institute under the Government of India and it is the place which molded me to be an Open Source Contributor. 
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+I believe that software development is an art, and every artist has his own ways of expressing his thoughts.
+
+
+### Contact me
+
+[dev-miche@hotmail.com](mailto:dev-miche@hotmail.com)
