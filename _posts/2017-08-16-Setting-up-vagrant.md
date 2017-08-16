@@ -5,13 +5,13 @@ title: Setting up vagrant
 
 Vagrant is a tool through which you can create and develop virtual environments. It is very easy to setup virtual machines and managing them using CLI with vagrant. 
 
-## Install Virtual Box
+### Install Virtual Box
 [Download Virtual Box](https://www.virtualbox.org/wiki/Downloads) and install it.
 
-## Install Vagrant
+### Install Vagrant
 [Download Vagrant](https://www.vagrantup.com/downloads.html) and install it.
 
-## Create an Instance
+### Create an Instance
 
 Create a directory for the instance setup.
 
@@ -32,7 +32,7 @@ vagrant up
 vagrant ssh
 ```
 
-## Enable port forwording from guest to host
+### Enable port forwording from guest to host
 
 ```vagrant init``` creates a configuration file called Vagrantfile. We can edit this file and change default configurations. To enable port forwording uncomment and modify the below line as:
 
@@ -45,7 +45,7 @@ Now restart the instance to reflect the changes.
 vagrant reload
 ```
 
-## Setting up sync folders
+### Setting up sync folders
 We can set up a sync folder between guest and host machine. This is helpful when you are not using vim as a default editor. Uncomment and modify the below line in Vagrantfile as:
 ```
 config.vm.synced_folder ".", "/vagrant"
