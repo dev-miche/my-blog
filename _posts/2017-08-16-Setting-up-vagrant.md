@@ -27,14 +27,14 @@ vagrant init ubuntu/xenial64
 vagrant up
 ```
 
-```vagrant up``` runs the instance in virtual box. To SSH into the instance use the command:
+```vagrant up``` runs the instance in virtual box. SSH into the instance using the command:
 ```
 vagrant ssh
 ```
 
-### Enable port forwording from guest to host
+### Enable port forwarding from guest to host
 
-```vagrant init``` creates a configuration file called Vagrantfile. We can edit this file and change default configurations. To enable port forwording uncomment and modify the below line as:
+```vagrant init``` creates a configuration file called the Vagrantfile. We can edit this file and change default configurations. To enable port forwarding, uncomment and modify the below line as:
 
 ```
 config.vm.network "forwarded_port", guest: 3000, host: 3000
@@ -45,8 +45,8 @@ Now restart the instance to reflect the changes.
 vagrant reload
 ```
 
-### Setting up sync folders
-We can set up a sync folder between guest and host machine. This is helpful when you are not using vim as a default editor. Uncomment and modify the below line in Vagrantfile as:
+### Setting up sync folder
+We can set up a sync folder between guest and host machine. This is helpful when you are not using vim as the default editor. Uncomment and modify the below line in Vagrantfile as:
 ```
 config.vm.synced_folder ".", "/vagrant"
 ```
