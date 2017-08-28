@@ -14,7 +14,7 @@ touch .gitignore_global
 And then declare the global ```.gitignore```
 
 ```
-git config --global core.excludesfile ~/.gitignore
+git config --global core.excludesfile ~/.gitignore_global
 ```
 
 [Here](https://github.com/dev-miche/dotfiles/blob/master/.gitignore_global) is the example of my global ```.gitignore```.
