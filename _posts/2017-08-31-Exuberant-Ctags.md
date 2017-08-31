@@ -29,7 +29,7 @@ Generate ```tags``` in you project directory
 ```
 ctags -R .
 ```
-# Create git hooks
+## Create git hooks
 
 Every time a change is made in any of the project files, we need to re generate the tags. We can create ```git hooks``` which will generate tags on add, commit, checkout, etc.
 
