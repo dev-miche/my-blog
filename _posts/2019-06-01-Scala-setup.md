@@ -9,22 +9,21 @@ This post is about setting up [scala](https://www.scala-lang.org/) on a mac mach
 
 Run ```javac -version```, javac version should be greater than 1.8 or higher otherwise download and install the JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
-### Install sbt
+### Install scala and start scala REPL through sbt
 
 ```
 brew update && brew install sbt@1
 ```
 
-Run following commands to verify <span style="color:red">sbt</span> installation
+Now to install scala with specific version run the following commands
 
 ```
 mkdir foo-build
 cd foo-build
 touch build.sbt
-sbt
 ```
 
-after running the last ```sbt``` command you will enter into the sbt shell, to leave sbt shell type ```exit``` or use ```CTRL + D```.
+Add ```scalaVersion := "2.12.8"``` in ```build.sbt``` file and run ```sbt console```, this will start the scala REPL, to exit type ```:quit``` or use ```CTRL + D```.
 
 ### Install Standalone Scala
 
@@ -32,4 +31,4 @@ after running the last ```sbt``` command you will enter into the sbt shell, to l
 brew update && brew install scala
 ```
 
-now to open scala REPL console run ```scala``` and to exit from console type ```:quit``` or use ```CTRL + D```.
+Now to start scala REPL run ```scala``` and to exit from console type ```:quit``` or use ```CTRL + D```.
